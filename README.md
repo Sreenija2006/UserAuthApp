@@ -115,6 +115,29 @@ Update EmailService.java:
 * Session Management
 
 ---
+##########################outpput##################################
+<img width="490" height="314" alt="landingpage" src="https://github.com/user-attachments/assets/d1dddab3-af10-461b-ac37-1f3fe659d21c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## 👨‍💻 Author
 
