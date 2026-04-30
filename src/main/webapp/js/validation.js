@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         confirmPassword.addEventListener("keyup", function () {
 
-            // ❌ DO NOT SHOW MESSAGE IF EMPTY
+            //  DO NOT SHOW MESSAGE IF EMPTY
             if (password.value === "" || confirmPassword.value === "") {
                 matchMsg.innerHTML = "";
                 return;
