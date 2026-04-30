@@ -25,7 +25,7 @@ public class RegisterServlet extends HttpServlet {
         try {
             Connection con = DBUtil.getConnection();
 
-            // 🔐 HASH PASSWORD (IMPORTANT)
+            //  HASH PASSWORD 
             String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt());
 
             String otp = String.valueOf(new Random().nextInt(999999));
@@ -46,13 +46,13 @@ public class RegisterServlet extends HttpServlet {
                     return;
                 }
 
-                // 🔥 UPDATE OTP + PASSWORD (FIXED)
+            
                 PreparedStatement update = con.prepareStatement(
                     "UPDATE users SET otp=?, otp_created_at=NOW(), password=? WHERE email=?"
                 );
 
                 update.setString(1, otp);
-                update.setString(2, hashedPassword); // 🔐 update hashed password
+                update.setString(2, hashedPassword); 
                 update.setString(3, email);
                 update.executeUpdate();
 
@@ -64,7 +64,7 @@ public class RegisterServlet extends HttpServlet {
 
                 insert.setString(1, name);
                 insert.setString(2, email);
-                insert.setString(3, hashedPassword); // 🔐 store hashed password
+                insert.setString(3, hashedPassword); 
                 insert.setString(4, otp);
 
                 insert.executeUpdate();
@@ -74,11 +74,11 @@ public class RegisterServlet extends HttpServlet {
 
             HttpSession session = request.getSession();
 
-            // 🔥 KEEP YOUR EXISTING SESSION LOGIC
+        
             session.setAttribute("otpEmail", email);
             session.setAttribute("otpTime", System.currentTimeMillis());
 
-            // 🔥 ALSO ADD (for verify servlet consistency)
+        
             session.setAttribute("otpStartTime", System.currentTimeMillis());
 
             request.setAttribute("email", email);
