@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             let val = password.value;
 
-            // ❌ DO NOT SHOW IF EMPTY
+            // DO NOT SHOW IF EMPTY
             if (val.length === 0) {
                 strength.innerHTML = "";
                 return;
