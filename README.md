@@ -123,12 +123,22 @@ Landing Page
 🔹 Register Page
 <img width="482" height="412" alt="register" src="https://github.com/user-attachments/assets/698f2c7d-6267-45e0-bc5d-1972079d533a" />
 🔹Otp Verification
-<img width="723" height="639" alt="image" src="https://github.com/user-attachments/assets/c90f5b47-086b-426f-92ac-ae64e3f40d0a" />
+<img width="1020" height="686" alt="image" src="https://github.com/user-attachments/assets/11617f06-8363-48ab-989c-f6239969b6c8" />
 
 🔹 Login Page
-<img width="754" height="557" alt="image" src="https://github.com/user-attachments/assets/bac19a99-7a60-4b2b-99b8-6a7c399f7238" />
+<img width="457" height="308" alt="login" src="https://github.com/user-attachments/assets/bb0e474b-c021-4469-b22e-8ea8d8038051" />
 🔹Forgot Password
-<img width="698" height="385" alt="image" src="https://github.com/user-attachments/assets/2299af67-d805-4211-b7be-30d289433b16" />
+<img width="909" height="564" alt="image" src="https://github.com/user-attachments/assets/2a3012f1-0189-4cc7-acda-efbf13b378fc" />
+🔹Reset Password
+<img width="364" height="259" alt="resetpassword" src="https://github.com/user-attachments/assets/0a8e50f3-abc5-4b0b-b30b-d02005c3df7d" />
+🔹Password Reset succeessful
+<img width="355" height="239" alt="resetsuccessful" src="https://github.com/user-attachments/assets/caaa8ea8-e210-4e0c-be6b-1052d654986f" />
+🔹Home page
+
+<img width="380" height="191" alt="home" src="https://github.com/user-attachments/assets/e4d366d4-583c-4eda-b133-ac042805af63" />
+
+
+
 
 
 
