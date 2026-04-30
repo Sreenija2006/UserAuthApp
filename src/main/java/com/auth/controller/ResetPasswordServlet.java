@@ -23,7 +23,7 @@ public class ResetPasswordServlet extends HttpServlet {
         try {
             Connection con = DBUtil.getConnection();
 
-            // 🔐 HASH PASSWORD (IMPORTANT)
+            // HASH PASSWORD 
             String hashedPassword = BCrypt.hashpw(newPassword, BCrypt.gensalt());
 
             PreparedStatement ps = con.prepareStatement(
