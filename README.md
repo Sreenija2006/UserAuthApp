@@ -61,7 +61,7 @@ UserAuthApp/
 ## ⚙️ Setup Instructions
 
 1. Clone the repository:
-   git clone https://github.com/your-username/UserAuthApp.git
+   git clone https://github.com/Sreenija2006/UserAuthApp.git
 
 2. Import into Eclipse / IntelliJ
 
