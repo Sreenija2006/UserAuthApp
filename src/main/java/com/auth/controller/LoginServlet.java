@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
                 String hashedPassword = rs.getString("password");
                 boolean verified = rs.getBoolean("is_verified");
 
-                // 🔥 SAFE CHECK (avoid null issues)
+                //  (avoid null issues)
                 if (hashedPassword != null && hashedPassword.startsWith("$2a$") 
                         && BCrypt.checkpw(password, hashedPassword)) {
 
@@ -62,7 +62,7 @@ public class LoginServlet extends HttpServlet {
         } catch (Exception e) {
             e.printStackTrace();
 
-            // 🔥 SHOW ERROR IN UI (important for debugging)
+            // SHOW ERROR IN UI 
             response.setContentType("text/html");
             response.getWriter().println("<h3>Error: " + e.getMessage() + "</h3>");
         }
