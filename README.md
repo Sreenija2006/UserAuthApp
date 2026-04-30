@@ -116,7 +116,20 @@ Update EmailService.java:
 
 ---
 ##########################outpput##################################
+
+Landing Page
+
 <img width="490" height="314" alt="landingpage" src="https://github.com/user-attachments/assets/d1dddab3-af10-461b-ac37-1f3fe659d21c" />
+🔹 Register Page
+<img width="482" height="412" alt="register" src="https://github.com/user-attachments/assets/698f2c7d-6267-45e0-bc5d-1972079d533a" />
+🔹Otp Verification
+<img width="723" height="639" alt="image" src="https://github.com/user-attachments/assets/c90f5b47-086b-426f-92ac-ae64e3f40d0a" />
+
+🔹 Login Page
+<img width="754" height="557" alt="image" src="https://github.com/user-attachments/assets/bac19a99-7a60-4b2b-99b8-6a7c399f7238" />
+🔹Forgot Password
+<img width="698" height="385" alt="image" src="https://github.com/user-attachments/assets/2299af67-d805-4211-b7be-30d289433b16" />
+
 
 
 
