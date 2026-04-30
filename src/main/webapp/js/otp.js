@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function () {
     updateCountdown();
     const timerInterval = setInterval(updateCountdown, 1000);
 
-    // 🔥 FIX FOR RESEND
     if (resendBtn) {
         resendBtn.addEventListener("click", function () {
             const newExpiry = Date.now() + TIMER_DURATION_SECONDS * 1000;
